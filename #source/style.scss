@@ -16,6 +16,9 @@ body {
 	background: url("../img/BG-Header.png") center no-repeat;
 	&__logo {
 		margin: 150px 0;
+		@media (max-width: 767px) {
+			margin: 60px 0;
+		}
 	}
 
 	&__title {
@@ -34,6 +37,9 @@ body {
 		font-size: 26px;
 		line-height: 1.18;
 		margin-bottom: 250px;
+		@media (max-width: 767px) {
+			margin-bottom: 100px;
+		}
 	}
 
 	&__button {
@@ -50,6 +56,9 @@ body {
 	}
 	&__arrow {
 		margin-bottom: 100px;
+		@media (max-width: 767px) {
+			margin-bottom: 50px;
+		}
 	}
 }
 
@@ -59,6 +68,9 @@ body {
 	letter-spacing: 5.52px;
 	text-align: center;
 	text-transform: uppercase;
+	@media (max-width: 767px) {
+		font-size: 25px;
+	}
 }
 
 .nav {
@@ -70,12 +82,18 @@ body {
 		display: flex;
 		font-size: 15px;
 		justify-content: center;
+		@media (max-width: 767px) {
+			font-size: 13px;
+		}
 		& a {
 			color: rgb(60, 60, 60);
 		}
 	}
 	& li {
 		padding: 20px;
+		@media (max-width: 767px) {
+			padding: 20px 10px;
+		}
 	}
 }
 .partners {
@@ -92,21 +110,38 @@ body {
 	&__row {
 		display: flex;
 		justify-content: center;
+		@media (max-width: 767px) {
+			flex-direction: column;
+		}
 	}
 
 	&__item {
 		padding: 0 50px;
-
 		margin-bottom: 75px;
+		@media (max-width: 767px) {
+			padding: 0 20px;
+			margin-bottom: 30px;
+		}
 	}
 }
 
 .about {
-	width: 50%;
+	width: 70%;
 	margin: 0 auto;
 	padding-top: 130px;
+	@media (max-width: 1199px) {
+		width: 100%;
+	}
+	@media (max-width: 767px) {
+		width: 80%;
+		margin: 0 auto;
+		padding-top: 60px;
+	}
 	&__title {
 		margin-bottom: 73px;
+		@media (max-width: 767px) {
+			margin-bottom: 40px;
+		}
 	}
 
 	&__subtitle {
@@ -115,10 +150,15 @@ body {
 		line-height: 1.86;
 		text-align: center;
 		color: rgb(134, 133, 133);
+		margin-bottom: 50px;
 	}
 }
 .row {
 	display: flex;
+	@media (max-width: 767px) {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
 	margin-bottom: 100px;
 	&__item {
 		flex: 1 1 33.3333%;
@@ -141,6 +181,10 @@ body {
 		margin-bottom: 35px;
 		font-size: 22px;
 		letter-spacing: 3.52px;
+		@media (max-width: 767px) {
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}
 	}
 	&_text {
 		font-size: 14px;
@@ -148,6 +192,9 @@ body {
 		line-height: 1.86;
 		text-align: center;
 		color: rgb(134, 133, 133);
+		@media (max-width: 767px) {
+			margin-bottom: 50px;
+		}
 	}
 }
 
@@ -156,6 +203,9 @@ body {
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 100px;
+	@media (max-width: 767px) {
+		width: 80%;
+	}
 	&__title {
 		margin-bottom: 90px;
 	}
@@ -183,6 +233,10 @@ body {
 		margin: 20px 20px 100px 20px;
 		flex: 0 0 40%;
 		height: 350px;
+		@media (max-width: 767px) {
+			flex: 1 1 80%;
+			height: 200;
+		}
 	}
 	&__link {
 		margin-bottom: 150px;
@@ -204,16 +258,23 @@ body {
 
 	&__content {
 		display: flex;
+		@media (max-width: 767px) {
+			flex-direction: column;
+		}
 	}
 
 	&__form {
 		flex: 0 0 50%;
+		@media (max-width: 767px) {
+			flex: 0 0 100%;
+		}
 	}
 
 	&__info {
 		width: 250px;
 		font-size: 14px;
 		line-height: 1.86;
+		margin: 0 auto;
 	}
 
 	&__text {
@@ -257,18 +318,41 @@ body {
 	padding-right: 80px;
 	font-weight: bold;
 	text-transform: uppercase;
-	width: 50%;
+	width: 60%;
+	@media (max-width: 767px) {
+		margin-left: 20px;
+		width: 100%;
+	}
+	@media (min-width: 768px) {
+		width: 90%;
+		margin-left: 20%;
+		padding: 0;
+	}
+	@media (min-width: 1280px) {
+		width: 80%;
+		margin-left: 30%;
+		padding: 0;
+	}
+
 	& p {
 		margin-bottom: 10px;
 	}
 
 	&__userdata {
 		display: flex;
+		margin: 0 auto;
+		@media (max-width: 767px) {
+			flex-direction: column;
+		}
 		margin-bottom: 75px;
 		justify-content: space-between;
 	}
 	&__userdata input {
 		height: 35px;
+		@media (max-width: 767px) {
+			margin-bottom: 15px;
+			width: 250px;
+		}
 	}
 
 	&__message {
