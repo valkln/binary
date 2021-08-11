@@ -80,6 +80,7 @@ a {
 
 body {
   font-family: "Lato", sans-serif;
+  overflow: visible;
 }
 
 .wrapper {
@@ -90,6 +91,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow: visible;
+}
+
+.main {
+  overflow: visible;
 }
 
 .header {
