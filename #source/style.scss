@@ -5,10 +5,12 @@ a {
 }
 body {
 	font-family: "Lato", sans-serif;
+	overflow: visible;
 }
 .wrapper {
 	display: flex;
 	flex-direction: column;
+	overflow: visible;
 }
 .main {
 	overflow: visible;
