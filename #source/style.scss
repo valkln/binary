@@ -63,7 +63,9 @@ body {
 
 .nav {
 	border-bottom: 1px solid rgb(60, 60, 60);
-	margin-bottom: 130px;
+	position: sticky;
+	top: 0px;
+	background-color: #fff;
 	&__box {
 		display: flex;
 		font-size: 15px;
@@ -79,7 +81,6 @@ body {
 .partners {
 	background: linear-gradient(to right, #575985 0%, #4f8a9f 100%);
 	text-align: center;
-	margin-bottom: 100px;
 	&__title {
 		color: #fff;
 		font-size: 30px;
@@ -103,6 +104,7 @@ body {
 .about {
 	width: 50%;
 	margin: 0 auto;
+	padding-top: 130px;
 	&__title {
 		margin-bottom: 73px;
 	}
@@ -113,7 +115,6 @@ body {
 		line-height: 1.86;
 		text-align: center;
 		color: rgb(134, 133, 133);
-		margin-bottom: 70px;
 	}
 }
 .row {
@@ -154,6 +155,7 @@ body {
 	width: 60%;
 	margin: 0 auto;
 	text-align: center;
+	padding-top: 100px;
 	&__title {
 		margin-bottom: 90px;
 	}
@@ -195,6 +197,7 @@ body {
 }
 
 .contact {
+	padding-top: 100px;
 	&__title {
 		margin-bottom: 50px;
 	}

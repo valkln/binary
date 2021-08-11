@@ -148,7 +148,10 @@ body {
 
 .nav {
   border-bottom: 1px solid #3c3c3c;
-  margin-bottom: 130px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
 }
 
 .nav__box {
@@ -173,7 +176,6 @@ body {
   background: -webkit-gradient(linear, left top, right top, from(#575985), to(#4f8a9f));
   background: linear-gradient(to right, #575985 0%, #4f8a9f 100%);
   text-align: center;
-  margin-bottom: 100px;
 }
 
 .partners__title {
@@ -201,6 +203,7 @@ body {
 .about {
   width: 50%;
   margin: 0 auto;
+  padding-top: 130px;
 }
 
 .about__title {
@@ -213,7 +216,6 @@ body {
   line-height: 1.86;
   text-align: center;
   color: #868585;
-  margin-bottom: 70px;
 }
 
 .row {
@@ -266,6 +268,7 @@ body {
   width: 60%;
   margin: 0 auto;
   text-align: center;
+  padding-top: 100px;
 }
 
 .portfolio__title {
@@ -321,6 +324,10 @@ body {
   display: inline-block;
   padding: 15px 20px;
   font-weight: bold;
+}
+
+.contact {
+  padding-top: 100px;
 }
 
 .contact__title {
