@@ -7,24 +7,32 @@
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -35,7 +43,9 @@ html, body {
   -webkit-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: inherit;
 }
 
@@ -52,7 +62,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -68,7 +79,12 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -89,8 +105,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   overflow: visible;
 }
 
@@ -150,7 +166,7 @@ body {
 
 .header__button:hover {
   -webkit-box-shadow: #00ffff 0px 0px 5px;
-          box-shadow: #00ffff 0px 0px 5px;
+  box-shadow: #00ffff 0px 0px 5px;
   text-shadow: #00ffff 0px 0px 5px;
 }
 
@@ -164,7 +180,7 @@ body {
 
 .header__arrow:hover {
   -webkit-filter: drop-shadow(#00ffff 0px 0px 5px);
-          filter: drop-shadow(#00ffff 0px 0px 5px);
+  filter: drop-shadow(#00ffff 0px 0px 5px);
 }
 
 @media (max-width: 767px) {
@@ -201,8 +217,8 @@ body {
   display: flex;
   font-size: 15px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media (max-width: 767px) {
@@ -248,14 +264,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 @media (max-width: 767px) {
   .partners__row {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -269,8 +285,8 @@ body {
     padding: 0 20px;
     margin-bottom: 30px;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
   }
 }
 
@@ -324,16 +340,16 @@ body {
   .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 0;
   }
 }
 
 .row__item {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 33.3333%;
-          flex: 1 1 33.3333%;
+  -ms-flex: 1 1 33.3333%;
+  flex: 1 1 33.3333%;
   text-align: center;
 }
 
@@ -347,11 +363,11 @@ body {
   display: flex;
   border-radius: 50%;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .row__title {
@@ -404,8 +420,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .portfolio__list li {
@@ -424,28 +440,28 @@ body {
   display: flex;
   width: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .portfolio__item {
   background-color: #4f8a9f;
   margin: 20px 20px 60px 20px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 40%;
-          flex: 0 0 40%;
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
 }
 
 @media (max-width: 767px) {
   .portfolio__item {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 80%;
-            flex: 1 1 80%;
+    -ms-flex: 1 1 80%;
+    flex: 1 1 80%;
   }
 }
 
@@ -483,22 +499,22 @@ body {
   .contact__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
 .contact__form {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
 }
 
 @media (max-width: 767px) {
   .contact__form {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
   }
 }
 
@@ -538,11 +554,11 @@ body {
   border: 2px solid #000;
   border-radius: 50%;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .contact__mail {
@@ -593,16 +609,16 @@ body {
   margin: 0 auto;
   margin-bottom: 75px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media (max-width: 767px) {
   .form__userdata {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-bottom: 20px;
   }
 }
@@ -663,7 +679,7 @@ body {
 .input:focus {
   border: 2px solid #008080;
   -webkit-box-shadow: #008080 1px 1px 5px;
-          box-shadow: #008080 1px 1px 5px;
+  box-shadow: #008080 1px 1px 5px;
 }
 
 .footer {
@@ -687,8 +703,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .footer__nav li {
